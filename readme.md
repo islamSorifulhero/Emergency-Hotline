@@ -1,11 +1,3 @@
-## Functionalities
-
-### 4. Heart Icons
-
-- Clicking on the 💗 **heart icon** of any card will increase the count in the Navbar
-
----
-
 ### 5. Call Buttons
 
 - On clicking a card's **Call Button**, following actions will happen:
