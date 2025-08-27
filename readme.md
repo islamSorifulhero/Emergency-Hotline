@@ -1,9 +1,3 @@
-### 3. Responsiveness (5 Marks)
-
-- Website should be fully **responsive for mobile devices** (implementation up to you)
-
----
-
 ## Functionalities
 
 ### 4. Heart Icons
