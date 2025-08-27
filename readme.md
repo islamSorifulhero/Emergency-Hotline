@@ -1,12 +1,3 @@
-### 2. Hero Section
-
-- **Background Gradient** in the Whole Section
-- **A Relevant Logo** at the top-center
-- **Section Title** in the center
-- **A Relevant Slogan** in the bottom Center
-
----
-
 ### 2. Main Section
 
 This Section will have layout as figma

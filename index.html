@@ -14,13 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font family Hind Madurai-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <!-- inter font family -->
+    <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -42,26 +36,88 @@
                     <h1 class="inter">0</h1>
                     <img class="w-[30px] h-[30px]" src="assets/heart.png" alt="">
                 </div>
-                <div class="flex gap-[10px] bg-[#41ff6b1a] w-[123px] rounded-[40px] justify-center items-center py-[15px]">
+                <div
+                    class="flex gap-[10px] bg-[#41ff6b1a] w-[123px] rounded-[40px] justify-center items-center py-[15px]">
                     <h1 class="inter">100</h1>
                     <img class="w-[24px] h-[24px]" src="assets/coin.png" alt="">
                 </div>
-                <div class="flex bg-[#00A63E] w-[123px] rounded-[40px] justify-center text-white items-center py-[15px]">
+                <div
+                    class="flex bg-[#00A63E] w-[123px] rounded-[40px] justify-center text-white items-center py-[15px]">
                     <h1 class="inter">2 Copy</h1>
                 </div>
             </div>
         </nav>
         <div class="mt-6 py-[21px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] ...">
             <img class="w-[92px] h-[92px] justify-center items-center mx-auto" src="assets/logo.png" alt="">
-            <h1 class="md:text-[40px] text-center font-bold text-[24px] text-[#ffffff] my-[11px]">Emergency Service
+            <h1 class="md:text-[40px] text-center font-bold text-[24px] text-[#ffffff] my-[11px] hind-madurai">Emergency
+                Service
                 Directory</h1>
-            <p class="md:text-[20px] text-center font-semibold text-[12px] text-[#ffffff]">Government Emergency Services
+            <p class="md:text-[20px] text-center font-semibold text-[12px] text-[#ffffff] hind-madurai">Government
+                Emergency Services
                 at
                 Your Fingertip – A Project
                 by Government of the People’s Republic of
                 Bangladesh</p>
         </div>
     </header>
+
+    <main class="bg-[#f5fff6] mt-3">
+        <section class="grid grid-cols-12 gap-4 w-11/12 mx-auto">
+            <div class="border border-red-500 grid grid-cols-3 gap-[30px] col-span-9">
+                <div class="card bg-base-100 w-auto shadow-sm">
+                    <div class="card-body">
+                        <div class="flex justify-between">
+                            <div class="bg-[#FFE3E2] rounded-[10px] items-center justify-center flex"><img
+                                    class="m-[14px] w-[32px] h-[32px]" src="assets/emergency.png" alt=""></div>
+                            <img src="assets/heart-linear.svg" alt="">
+                        </div>
+                        <h1 class="text-[#111111] text-[24px] font-bold hind-madurai">National Emergency Number</h1>
+                        <h3 class="text-[18px] font-normal text-[#5C5C5C] roboto">National Emergency</h3>
+                        <h3 class="text-[32px] font-bold text-[#111111] roboto">999</h3>
+                        <div class="bg-[#F2F2F2] rounded-lg">
+                            <h3 class="text-[18px] font-normal text-[#5C5C5C] roboto">All</h3>
+                        </div>
+                        <div class="card-actions">
+                            <div class="badge badge-outline">Fashion</div>
+                            <div class="badge badge-outline">Products</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Card Title
+                            <div class="badge badge-secondary">NEW</div>
+                        </h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts
+                        </p>
+                        <div class="card-actions">
+                            <div class="badge badge-outline">Fashion</div>
+                            <div class="badge badge-outline">Products</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Card Title
+                            <div class="badge badge-secondary">NEW</div>
+                        </h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts
+                        </p>
+                        <div class="card-actions">
+                            <div class="badge badge-outline">Fashion</div>
+                            <div class="badge badge-outline">Products</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-blue-600 col-span-3">
+
+            </div>
+        </section>
+    </main>
 
 
     <script src="script.js"></script>
