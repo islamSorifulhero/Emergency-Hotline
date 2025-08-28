@@ -1,24 +1,25 @@
 // Call Buttons
+const callButtons = document.getElementsByClassName("call-btn");
 
-const callBtn = document.getElementsByClassName('call-btn');
-const decreaseCount = document.getElementsByClassName('decrease-count');
+for (let btn of callButtons) {
+  btn.addEventListener("click", function () {
+    const card = btn.closest(".card");
+    const title = card.querySelector(".title-name").innerText;
 
+    const number = card.querySelector(".title-num").innerText;
 
-const titleName = document.getElementsByClassName('title-name');
-const titleNum = document.getElementsByClassName('title-num');
+    const decreaseCount = parseInt(document.getElementById('decrease-count').innerText);
 
+    const decreaseCountTotal = decreaseCount - 20;
 
+    if(decreaseCount < 20){
+        return alert("❌You don't have enough coins ");;
+    }
 
+    alert('📞' + title + ' ' + number + '...');
 
-// for(const numTitle of titleNum){
-//     return numTitle;
-// }
+    document.getElementById('decrease-count').innerText  = decreaseCountTotal;
 
-for (const call of callBtn) {
-    call.addEventListener('click', function () {
-        for (const nameTitle of titleName) {
-            alert (titleName)
-            return nameTitle;
-        }
-    })
+  });
 }
+
