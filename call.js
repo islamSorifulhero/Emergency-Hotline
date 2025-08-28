@@ -1,7 +1,6 @@
 // Call Buttons
 const callButtons = document.getElementsByClassName("call-btn");
 
-
 for (let btn of callButtons) {
     btn.addEventListener("click", function () {
         const card = btn.closest(".card");
