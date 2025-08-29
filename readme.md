@@ -10,6 +10,8 @@ ii. getElementByClassName ("class") = Selects all element with the given class n
 
 iii. querySelector ("CSS selector") = Can use any CSS selector these are id, class, tag, attribute, etc. Returns only the first matching element. This is static because dose not update automatically if DOM changes.
 
+iv. querySelectorAll ("CSS selector") = Select All elements that match the CSS selector. Returns a NodeList. It is static and does not auto-update, and easy to loop with forEach.
+
 2. How do you **create and insert a new element into the DOM**?
 Ans:
 
