@@ -36,11 +36,11 @@ Event bubbling is a process in which an element, after being triggered on a spec
 
 How it works:
 
-i. Suppose you click a <button> inside a <div>.
+i. Suppose you click a <button> inside a <div>
 
-ii. First, the event triggers on the <button> .
+ii. First, the event triggers on the <button>
 
-iii. Then, the same event bubbles up to the parent <div>.
+iii. Then, the same event bubbles up to the parent <div>
 
 iv. After that, it bubbles up to <body>, and finally to <html> and document.
 
@@ -64,4 +64,12 @@ ii. The parent's event listener can check which child triggered the event using 
 
 Ans- 05
 
+preventDefault() and stopPropagation() are two different methods used in event handling to control how an event behaves.
 
+i. event.preventDefault()
+
+This method stops the default browser action for a given event. The default action is the natural behavior the browser performs when an event occurs. To prevent a browser's built-in action. Click a <button type = "submit"> will submit a form. Clicking an <a> tag will navigate to the URL in its href attribute. Pressing a key in a <input> field will display the character.
+
+ii. event.stopPropagation()
+
+This method stops the propagation or "bubbling up" of an event through the DOM tree. To prevent the event from reaching parent elements. When an event is triggered on an element it normally bubble up to all its ancestors. stopPropagation() ensures that the event listener on the current element is the last one to process it. No parent elements will be notified of the event.
