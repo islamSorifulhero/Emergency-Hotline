@@ -13,14 +13,33 @@ iii. querySelector ("CSS selector") = Can use any CSS selector these are id, cla
 iv. querySelectorAll ("CSS selector") = Select All elements that match the CSS selector. Returns a NodeList. It is static and does not auto-update, and easy to loop with forEach.
 
 2. How do you **create and insert a new element into the DOM**?
-Ans:
 
+Ans:- 02
 
+To create and insert a new element into the DOM in JavaScript, we usually follow these steps:
+
+i. Create the element using document.createElement().
+ii. Set its content or attributes (innerText, id, class).
+iii. Insert it into the DOM using methods like appendChild(), prepend(), insertBefore(), etc.
 
 3. What is **Event Bubbling** and how does it work?
+
+Ans- 03
+
+
+
 
 
 4. What is **Event Delegation** in JavaScript? Why is it useful?
 
+Ans- 04
+
+
+
+
 
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
+
+Ans- 05
+
+
