@@ -39,7 +39,7 @@ for (let btn of callButtons) {
 
         historyItem.innerHTML = `
       <div class="py-[16px] px-[16px]">
-        <h1 class="inter text-[18px] font-semibold">${title}</h1>
+        <h1 class="inter text-[16px] font-semibold">${title}</h1>
         <h2 class="hind-madurai text-[18px] mt-1">${number}</h2>
       </div>
       <div class="px-[16px] hind-madurai text-[18px]">
